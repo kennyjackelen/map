@@ -53,21 +53,66 @@ var bindFilters = function bindFilters() {
   $('#ballparks_toggle').click(toggleBallparks);
 };
 
+var processHash = function processHash() {
+  var hash = window.location.hash;
+  if (hash === '#ballparks') {
+    toggleBallparks();
+    $('#ballparks_toggle').button('toggle');
+  } else if (hash === '#cities') {
+    toggleCities();
+    $('#cities_toggle').button('toggle');
+  } else if (hash === '#flights') {
+    toggleFlights();
+    $('#flights_toggle').button('toggle');
+  }
+};
+
 var initialize = function initialize() {
   initializeMap();
   bindFilters();
+  processHash();
 };
 
 var buildCityMarkers = function buildCityMarkers() {
+  if ( citiesBuilt ) {
+    return;
+  }
+
+  collections.cities = [];
+
+  for ( var city in homeCities) {
+    var cityMarker = new gm.Marker({
+      position: homeCities[city].location,
+      title: homeCities[city].town
+    });
+    
+    collections.cities.push(cityMarker);
+  }
+
+  for ( var city in visitedCities) {
+    var cityMarker = new gm.Marker({
+      position: visitedCities[city].location,
+      title: visitedCities[city].town
+    });
+    
+    collections.cities.push(cityMarker);
+  }
+
+  citiesBuilt = true;
 
 };
 
 var showCityMarkers = function showCityMarkers() {
-
+  buildCityMarkers();
+  for ( var city in collections.cities ) {
+    collections.cities[city].setMap(map);
+  }
 };
 
 var hideCityMarkers = function hideCityMarkers() {
-
+  for ( var city in collections.cities ) {
+    collections.cities[city].setMap(null);
+  }
 };
 
 var showInfoWindow = function showInfoWindow( firstCity, secondCity, flightPath, mapEvent ) {
