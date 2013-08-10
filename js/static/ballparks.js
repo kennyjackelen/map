@@ -1,0 +1,83 @@
+var latLng = google.maps.LatLng;
+var point = google.maps.Point;
+var ballparks = {};
+ballparks.locations = {
+  'BAL': new latLng(39.283889, -76.621667),
+  'BOS': new latLng(42.346389, -71.0975),
+  'NYY': new latLng(40.829167, -73.926389),
+  'TBR': new latLng(27.768333, -82.653333),
+  'TOR': new latLng(43.641389, -79.389167),
+  'CHW': new latLng(41.83, -87.633889),
+  'CLE': new latLng(41.495833, -81.685278),
+  'DET': new latLng(42.339167, -83.048611),
+  'KCR': new latLng(39.051389, -94.480556),
+  'MIN': new latLng(44.981667, -93.278333),
+  'HOU': new latLng(29.756944, -95.355556),
+  'LAA': new latLng(33.800278, -117.882778),
+  'OAK': new latLng(37.751667, -122.200556),
+  'SEA': new latLng(47.591389, -122.3325),
+  'TEX': new latLng(32.751389, -97.082778),
+  'ATL': new latLng(33.735278, -84.389444),
+  'MIA': new latLng(25.778056, -80.219722),
+  'NYM': new latLng(40.756944, -73.845833),
+  'PHI': new latLng(39.905833, -75.166389),
+  'WAS': new latLng(38.872778, -77.0075),
+  'CHC': new latLng(41.948333, -87.655556),
+  'CIN': new latLng(39.0975, -84.506667),
+  'MIL': new latLng(43.028333, -87.971111),
+  'PIT': new latLng(40.446944, -80.005833),
+  'STL': new latLng(38.6225, -90.193056),
+  'ARI': new latLng(33.445278, -112.066944),
+  'COL': new latLng(39.756111, -104.994167),
+  'LAD': new latLng(34.073611, -118.24),
+  'SDP': new latLng(32.7073, -117.1566),
+  'SFG': new latLng(37.778611, -122.389167)
+};
+
+ballparks.names = {
+  'BAL': 'Oriole Park at Camden Yards',
+  'BOS': 'Fenway Park',
+  'NYY': 'Yankee Stadium',
+  'TBR': 'Tropicana Field',
+  'TOR': 'Rogers Centre',
+  'CHW': 'U.S. Cellular Field',
+  'CLE': 'Progressive Field',
+  'DET': 'Comerica Park',
+  'KCR': 'Kauffman Stadium',
+  'MIN': 'Target Field',
+  'HOU': 'Minute Maid Park',
+  'LAA': 'Angel Stadium of Anaheim',
+  'OAK': 'O.co Coliseum',
+  'SEA': 'Safeco Field',
+  'TEX': 'Rangers Ballpark in Arlington',
+  'ATL': 'Turner Field',
+  'MIA': 'Marlins Park',
+  'NYM': 'Citi Field',
+  'PHI': 'Citizens Bank Park',
+  'WAS': 'Nationals Park',
+  'CHC': 'Wrigley Field',
+  'CIN': 'Great American Ballpark',
+  'MIL': 'Miller Park',
+  'PIT': 'PNC Park',
+  'STL': 'Busch Stadium',
+  'ARI': 'Chase Field',
+  'COL': 'Coors Field',
+  'LAD': 'Dodger Stadium',
+  'SDP': 'Petco Park',
+  'SFG': 'AT&T Park'
+};
+
+ballparks.anchors = {
+  'MIL': new point(15,30),
+  'CHC': new point(15,20),
+  'CHW': new point(5,0),
+  'SFG': new point(30,15),
+  'OAK': new point(0,15),
+  'WAS': new point(15,0),
+  'NYY': new point(15,30),
+  'NYM': new point(0,10),
+  'LAD': new point(15,30),
+  'LAA': new point(15,0),
+  'SDP': new point(0,0)
+};
+
