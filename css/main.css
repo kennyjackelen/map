@@ -4,8 +4,23 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/binding_dark.png);
+}
 
+#filters {
+  margin: 5px;
+  height: 40px;
+}
 
+#map {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  width: 100%;
+}
 
 
 
