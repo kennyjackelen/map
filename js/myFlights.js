@@ -155,5 +155,8 @@ var myFlights = [
   {src: 'DFW', dest: 'MSN'},
   // July-August 2013 - Business Trip to Atlanta
   {src: 'MSN', dest: 'ATL'},
-  {src: 'ATL', dest: 'MSN'}
+  {src: 'ATL', dest: 'MSN'},
+  // September 2013 - Weekend in Maryland with the college buds
+  {src: 'MSN', dest: 'DCA'},
+  {src: 'DCA', dest: 'MSN'}
 ];
