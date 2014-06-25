@@ -158,5 +158,21 @@ var myFlights = [
   {src: 'ATL', dest: 'MSN'},
   // September 2013 - Weekend in Maryland with the college buds
   {src: 'MSN', dest: 'DCA'},
-  {src: 'DCA', dest: 'MSN'}
+  {src: 'DCA', dest: 'MSN'},
+  // December 2013-January 2014 - Wedding at Disney
+  {src: 'MKE', dest: 'ATL'},
+  {src: 'ATL', dest: 'MCO'},
+  {src: 'MCO', dest: 'MSP'},
+  {src: 'MSP', dest: 'MKE'},
+  // April 2014 - Vacation in the Cayman Islands
+  {src: 'MSN', dest: 'ORD'},
+  {src: 'ORD', dest: 'IAH'},
+  {src: 'IAH', dest: 'GCM'},
+  {src: 'GCM', dest: 'MSP'},
+  {src: 'MSP', dest: 'MSN'},
+  // May 2014 - Business Trip to Boston
+  {src: 'MSN', dest: 'ORD'},
+  {src: 'ORD', dest: 'BOS'},
+  {src: 'BOS', dest: 'CVG'},
+  {src: 'CVG', dest: 'MSN'}
 ];
