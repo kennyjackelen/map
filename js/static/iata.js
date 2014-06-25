@@ -9039,7 +9039,7 @@ var iata = {
 	'CHK': new latLng(35.0972, -97.9678),
 	'6OK2': new latLng(35.0628, -97.8953),
 	'95OK': new latLng(36.2675, -95.6308),
-	'GCM': new latLng(19.2925, -81.3952),
+	'GCM': new latLng(19.2925, -81.3592),
 	'OK20': new latLng(36.3836, -95.6481),
 	'K11': new latLng(36.2181, -95.6519),
 	'95F': new latLng(36.2839, -96.4633),
