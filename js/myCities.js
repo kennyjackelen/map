@@ -45,5 +45,6 @@ var visitedCities = [
   { town:"College Station, TX", location: new latLng(30.601389, -96.314444) },
   { town:"Dallas, TX", location: new latLng(32.775833, -96.796667) },
   { town:"Honolulu, HI", location: new latLng(21.308889, -157.826111) },
-  { town:"Atlanta, GA", location: new latLng(33.755, -84.39) }
+  { town:"Atlanta, GA", location: new latLng(33.755, -84.39) },
+  { town:"George Town, Cayman Islands", location: new latLng(19.3034, -81.3863) }
 ];

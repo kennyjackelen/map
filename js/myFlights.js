@@ -174,5 +174,10 @@ var myFlights = [
   {src: 'MSN', dest: 'ORD'},
   {src: 'ORD', dest: 'BOS'},
   {src: 'BOS', dest: 'CVG'},
-  {src: 'CVG', dest: 'MSN'}
+  {src: 'CVG', dest: 'MSN'},
+  // September 2014 - Vacation to Disney
+  {src: 'MSN', dest: 'DTW'},
+  {src: 'DTW', dest: 'MCO'},
+  {src: 'MCO', dest: 'DTW'},
+  {src: 'DTW', dest: 'MCO'}
 ];
