@@ -179,5 +179,30 @@ var myFlights = [
   {src: 'MSN', dest: 'DTW'},
   {src: 'DTW', dest: 'MCO'},
   {src: 'MCO', dest: 'DTW'},
-  {src: 'DTW', dest: 'MCO'}
+  {src: 'DTW', dest: 'MSN'},
+  // December 2014 - Christmas in Texas
+  {src: 'MKE', dest: 'IAH'},
+  {src: 'IAH', dest: 'CLL'},
+  {src: 'CLL', dest: 'IAH'},
+  {src: 'IAH', dest: 'MKE'},
+  // January-February 2015 - Vacation to Disney
+  {src: 'MSN', dest: 'LGA'},
+  {src: 'LGA', dest: 'MCO'},
+  {src: 'MCO', dest: 'MSP'},
+  {src: 'MSP', dest: 'MSN'},
+  // March-April 2015 - Business Trip to Connecticut
+  {src: 'MSN', dest: 'DTW'},
+  {src: 'DTW', dest: 'BDL'},
+  {src: 'BDL', dest: 'DTW'},
+  {src: 'DTW', dest: 'MSN'},
+  // June 2015 - Vacation to Disney
+  {src: 'MSN', dest: 'ATL'},
+  {src: 'ATL', dest: 'MCO'},
+  {src: 'MCO', dest: 'DTW'},
+  {src: 'DTW', dest: 'MSN'},
+  // February 2016 - Business Trip to Phoenix
+  {src: 'MSN', dest: 'MSP'},
+  {src: 'MSP', dest: 'PHX'},
+  {src: 'PHX', dest: 'MSP'},
+  {src: 'MSP', dest: 'MSN'}
 ];
