@@ -17,7 +17,8 @@ var visitedBallparks = [
   'STL',
   'COL',
   'LAD',
-  'SFG'
+  'SFG',
+  'NYM'
 ];
 
 var unvisitedBallparks = [
@@ -28,7 +29,6 @@ var unvisitedBallparks = [
   'HOU',
   'LAA',
   'MIA',
-  'NYM',
   'PIT',
   'ARI',
   'SDP'

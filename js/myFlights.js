@@ -204,5 +204,10 @@ var myFlights = [
   {src: 'MSN', dest: 'MSP'},
   {src: 'MSP', dest: 'PHX'},
   {src: 'PHX', dest: 'MSP'},
-  {src: 'MSP', dest: 'MSN'}
+  {src: 'MSP', dest: 'MSN'},
+  // May 2016 - Business Trip to Connecticut
+  {src: 'MSN', dest: 'DTW'},
+  {src: 'DTW', dest: 'LGA'},
+  {src: 'LGA', dest: 'DTW'},
+  {src: 'DTW', dest: 'MSN'}
 ];
