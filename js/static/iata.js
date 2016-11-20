@@ -13429,5 +13429,6 @@ var iata = {
 	'EAN': new latLng(42.0556, -104.9286),
 	'WY25': new latLng(42.3069, -104.9367),
 	'WY59': new latLng(41.9331, -105.085),
-	'WRL': new latLng(43.9658, -107.9508)
+	'WRL': new latLng(43.9658, -107.9508),
+	'NAS': new latLng(25.038889, -77.466111)
 };
