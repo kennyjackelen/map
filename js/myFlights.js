@@ -209,5 +209,10 @@ var myFlights = [
   {src: 'MSN', dest: 'DTW'},
   {src: 'DTW', dest: 'LGA'},
   {src: 'LGA', dest: 'DTW'},
-  {src: 'DTW', dest: 'MSN'}
+  {src: 'DTW', dest: 'MSN'},
+  // October 2016 - Sabbatibal to Bahamas
+  {src: 'MSN', dest: 'ATL'},
+  {src: 'ATL', dest: 'NAS'},
+  {src: 'NAS', dest: 'ATL'},
+  {src: 'ATL', dest: 'MSN'}
 ];
