@@ -214,5 +214,10 @@ var myFlights = [
   {src: 'MSN', dest: 'ATL'},
   {src: 'ATL', dest: 'NAS'},
   {src: 'NAS', dest: 'ATL'},
-  {src: 'ATL', dest: 'MSN'}
+  {src: 'ATL', dest: 'MSN'},
+  // December 2016 - Christmas in Texas
+  {src: 'MSN', dest: 'DFW'},
+  {src: 'DFW', dest: 'CLL'},
+  {src: 'CLL', dest: 'DFW'},
+  {src: 'DFW', dest: 'MSN'}
 ];
