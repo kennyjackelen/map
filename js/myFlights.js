@@ -219,5 +219,26 @@ var myFlights = [
   {src: 'MSN', dest: 'DFW'},
   {src: 'DFW', dest: 'CLL'},
   {src: 'CLL', dest: 'DFW'},
-  {src: 'DFW', dest: 'MSN'}
+  {src: 'DFW', dest: 'MSN'},
+  // April 2017 - Business Trip to Columbus
+  {src: 'MSN', dest: 'DTW'},
+  {src: 'DTW', dest: 'CMH'},
+  {src: 'CMH', dest: 'ATL'},
+  {src: 'ATL', dest: 'MSN'},
+  // May 2017 - Vacation to Disney
+  {src: 'MSN', dest: 'ATL'},
+  {src: 'ATL', dest: 'MCO'},
+  {src: 'MCO', dest: 'DTW'},
+  {src: 'DTW', dest: 'MSN'},
+  // September 2017 - Vacation to Disney
+  {src: 'MSP', dest: 'MCO'},
+  {src: 'MCO', dest: 'MSP'},
+  // December 2017 - Vacation to Seattle
+  {src: 'MSP', dest: 'SEA'},
+  {src: 'SEA', dest: 'MSP'},
+  // December 2017 - Business Trip to Winston-Salem
+  {src: 'RST', dest: 'ATL'},
+  {src: 'ATL', dest: 'GSO'},
+  {src: 'GSO', dest: 'ATL'},
+  {src: 'ATL', dest: 'RST'}
 ];
