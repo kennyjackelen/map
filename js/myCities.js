@@ -3,7 +3,9 @@ var latLng = google.maps.LatLng;
 var homeCities = [
   { town:"Madison, WI", location: new latLng(43.067, -89.4) },
   { town:"Eagan, MN", location: new latLng(44.817, -93.167) },
-  { town:"South Bend, IN", location: new latLng(41.667, -86.25) }
+  { town:"South Bend, IN", location: new latLng(41.667, -86.25) },
+  { town:"Fitchburg, WI", location: new latLng(43.006389, -89.431389) },
+  { town:"Rochester, MN", location: new latLng(44.0234, -92.46295) }
 ];
 
 var visitedCities = [
@@ -46,5 +48,9 @@ var visitedCities = [
   { town:"Dallas, TX", location: new latLng(32.775833, -96.796667) },
   { town:"Honolulu, HI", location: new latLng(21.308889, -157.826111) },
   { town:"Atlanta, GA", location: new latLng(33.755, -84.39) },
-  { town:"George Town, Cayman Islands", location: new latLng(19.3034, -81.3863) }
+  { town:"George Town, Cayman Islands", location: new latLng(19.3034, -81.3863) },
+  { town:"Paradise Island, Bahamas", location: new latLng(25.083333, -77.333333) },
+  { town:"Las Vegas, NV", location: new latLng(36.175, -115.136389) },
+  { town:"Columbus, OH", location: new latLng(39.983333, -82.983333) },
+  { town:"Winston-Salem, NC", location: new latLng(36.102764, -80.260492) }
 ];

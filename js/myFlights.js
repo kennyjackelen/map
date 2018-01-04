@@ -220,6 +220,10 @@ var myFlights = [
   {src: 'DFW', dest: 'CLL'},
   {src: 'CLL', dest: 'DFW'},
   {src: 'DFW', dest: 'MSN'},
+  // March 2017 - Vacation to Las Vegas
+  {src: 'MKE', dest: 'LAS'},
+  {src: 'LAS', dest: 'DEN'},
+  {src: 'DEN', dest: 'MKE'},
   // April 2017 - Business Trip to Columbus
   {src: 'MSN', dest: 'DTW'},
   {src: 'DTW', dest: 'CMH'},
@@ -240,5 +244,8 @@ var myFlights = [
   {src: 'RST', dest: 'ATL'},
   {src: 'ATL', dest: 'GSO'},
   {src: 'GSO', dest: 'ATL'},
-  {src: 'ATL', dest: 'RST'}
+  {src: 'ATL', dest: 'RST'},
+  // January 2018 - Vacation to Disney
+  {src: 'MSP', dest: 'MCO'},
+  {src: 'MCO', dest: 'MSP'}
 ];
