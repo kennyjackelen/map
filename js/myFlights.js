@@ -247,5 +247,8 @@ var myFlights = [
   {src: 'ATL', dest: 'RST'},
   // January 2018 - Vacation to Disney
   {src: 'MSP', dest: 'MCO'},
-  {src: 'MCO', dest: 'MSP'}
+  {src: 'MCO', dest: 'MSP'},
+  // June 2018 - Vacation to Europe
+  {src: 'MSP', dest: 'LHR'},
+  {src: 'CDG', dest: 'MSP'}
 ];
